@@ -1,0 +1,115 @@
+/* Here goes your CSS */
+body {
+  background-color: rgb(200, 200, 200);
+  color:rgb(75, 75, 75);
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 10px;
+}
+
+h1, h3 {
+  color:#080D51;
+}
+
+h2 {
+  color:rgb(150, 150, 150);
+}
+
+a {
+  color:rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.card {
+  background-color: white;
+  width:600px;
+  margin: 10 auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(75, 75, 75, .5);
+  border-radius: 5px;
+}
+
+.avatar{
+  width:150px;
+  height:150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("img/profile1.jpg");
+}
+.avatar:hover{
+  background-image: url("img/profilehover1.jpg");
+}
+
+.img-size {
+  width:200px;
+}
+
+.button-link {
+  background-color:#080D51;
+  width:100px;
+  height:40px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 12px;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color:rgb(52, 50, 120);
+}
+
+.button-link a{
+  color:white;
+}
+ul {
+  padding:0;
+}
+
+li {
+  display: inline-block;
+  margin:0 30px;
+}
+
+i{
+  color: rgb(100, 100, 100);
+  font-size: 40px !important;
+}
+i:hover{
+  color: rgb(40, 40, 40);
+}
+
+td {
+  padding:10px;
+}
+
+#side-bar{
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+.container {
+}
+#side-bar i{
+  color:white;
+}
+#side-bar i:hover{
+  color:#16185A;
+}
+#side-bar ul li{
+  margin-top:40px;
+}
